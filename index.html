@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="address=no, email=no, telephone=no" name="format-detection">
+    <meta content="initial-scale=1, width=device-width" name="viewport">
+    <title>クリエイターズカフェ - 作業通話のためのオンラインコワーキングスペース</title>
+    <meta name="description" content="「クリエイターズカフェ」は、プロのクリエイターの方たちがDiscordという無料ツールを使って雑談しながら作業ができる空間を提供しています。">
+    <meta property="og:title" content="クリエイターズカフェ - 作業通話のためのオンラインコワーキングスペース">
+    <meta property="og:type" content="website">
+    <meta name="og:description" content="「クリエイターズカフェ」は、プロのクリエイターの方たちがDiscordという無料ツールを使って雑談しながら作業ができる空間を提供しています。">
+    <meta property="og:url" content="https://c-cafe.github.io/">
+    <meta property="og:image" content="https://c-cafe.github.io/assets/images/og-image.png">
+    <meta property="og:site_name" content="クリエイターズカフェ - 作業通話のためのオンラインコワーキングスペース">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="クリエイターズカフェ - 作業通話のためのオンラインコワーキングスペース">
+    <meta name="twitter:description" content="「クリエイターズカフェ」は、プロのクリエイターの方たちがDiscordという無料ツールを使って雑談しながら作業ができる空間を提供しています。">
+    <meta name="twitter:image:src" content="https://c-cafe.github.io/assets/images/og-image.png">
+    <link href="/favicon.ico" rel="icon">
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/assets/styles/main.css" rel="stylesheet">
+    <link href="/assets/styles/print.css" media="print" rel="stylesheet">
+    <link href="/assets/styles/home.css" rel="stylesheet">
+    <script>
+        (function(d) {
+            var config = {
+                    kitId: 'hua5agg',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function() {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function() {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body class="home">
+    <div class="layout">
+        <header id="js-header" class="header">
+            <nav class="header__nav js-waypoint">
+                <h1 class="header__nav__logo">
+                    <a href="#" class="header__nav__logo__anchor">
+                        Creator's Cafe
+                    </a>
+                </h1>
+                <ul class="header__nav__list">
+                    <li class="header__nav__list__item" data-category="about">
+                        <a href="#about" class="header__nav__list__item__anchor">
+                            クリエイターズカフェとは
+                        </a>
+                    </li>
+                    <li class="header__nav__list__item" data-category="features">
+                        <a href="#features" class="header__nav__list__item__anchor">
+                            サーバーの特徴
+                        </a>
+                    </li>
+                    <li class="header__nav__list__item" data-category="terms">
+                        <a href="#terms" class="header__nav__list__item__anchor">
+                            参加条件
+                        </a>
+                    </li>
+                    <li class="header__nav__list__item" data-category="enter">
+                        <a href="#enter" class="header__nav__list__item__anchor">
+                            入室について
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__content">
+                <div class="container header__content__container">
+                    <div class="header__columns">
+                        <div class="header__columns__column">
+                            <div class="header__logo">
+                                <h1 class="header__logo__heading">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 745 346">
+                                        <path class="logo-1" d="M63.57,282c-9-8.1-17.28-9-21.88-9-17.52,0-29.36,12.94-29.36,30.7,0,17,12.32,30.21,29.48,30.21,9.67,0,17.17-4.95,21.76-9.3v14.62a44,44,0,0,1-22.12,6,40.34,40.34,0,0,1-28.52-11.12C3.5,325.42,0,315.15,0,303.79c0-14.86,6.16-25.14,12.93-31.54,8.34-7.86,18-10.51,29.13-10.51,7.37,0,14.5,1.32,21.51,5.8Z" />
+                                        <path class="logo-1" d="M81,292.91H92.83v4.6a20.43,20.43,0,0,1,5-4.23,13.66,13.66,0,0,1,7.25-1.7,17.58,17.58,0,0,1,9.3,2.42l-4.83,10.76a10.75,10.75,0,0,0-6-1.82c-2.54,0-5.08.37-7.37,2.79-3.27,3.5-3.27,8.33-3.27,11.72v26.34H81Z" />
+                                        <path class="logo-1" d="M168.64,332.19a26.69,26.69,0,0,1-8.58,9.31c-4.11,2.65-9.54,3.86-15,3.86-6.77,0-12.33-1.69-17.16-6.52s-7.5-11.85-7.5-19.46a29.83,29.83,0,0,1,8.1-20.91,23.18,23.18,0,0,1,17-6.89,21.89,21.89,0,0,1,16.31,6.65c6.53,6.77,7.13,16.2,7.13,21.51v1.45H132.51a16.81,16.81,0,0,0,4.35,10.28c2.78,2.77,6.16,3.26,9.06,3.26a12.49,12.49,0,0,0,8.1-2.54,18.38,18.38,0,0,0,4.71-5.56Zm-11.72-20.66a12.21,12.21,0,0,0-3.63-6.89A12.35,12.35,0,0,0,137,305a13.4,13.4,0,0,0-3.63,6.53Z" />
+                                        <path class="logo-1" d="M221.07,292.91h11.84v50.88H221.07v-5.32a19.52,19.52,0,0,1-15.23,6.89c-15.71,0-24.65-13.05-24.65-27.07,0-16.55,11.36-26.71,24.77-26.71a18.54,18.54,0,0,1,15.11,7.26Zm-27.79,25.62c0,8.83,5.55,16.2,14.13,16.2,7.5,0,14.39-5.44,14.39-16.08,0-11.11-6.89-16.43-14.39-16.43-8.58,0-14.13,7.25-14.13,16.31" />
+                                        <polygon class="logo-1" points="265.18 303.79 265.18 343.79 253.34 343.79 253.34 303.79 248.38 303.79 248.38 292.91 253.34 292.91 253.34 274.3 265.18 274.3 265.18 292.91 274.24 292.91 274.24 303.79 265.18 303.79" />
+                                        <path class="logo-1" d="M338.43,318.41c0,15.59-11.84,26.95-27.19,26.95S284.05,334,284.05,318.41s11.85-26.83,27.19-26.83,27.19,11.12,27.19,26.83m-12.08.12c0-11.6-7.61-16.31-15.11-16.31s-15.1,4.71-15.1,16.31c0,9.79,5.8,16.2,15.1,16.2s15.11-6.41,15.11-16.2" />
+                                        <path class="logo-1" d="M355,292.91h11.84v4.6a20.24,20.24,0,0,1,5-4.23,13.66,13.66,0,0,1,7.25-1.7,17.58,17.58,0,0,1,9.3,2.42l-4.83,10.76a10.77,10.77,0,0,0-6-1.82c-2.54,0-5.08.37-7.38,2.79-3.26,3.5-3.26,8.33-3.26,11.72v26.34H355Z" />
+                                        <polygon class="logo-1" points="409.46 259.08 420.09 263.19 405.11 293.04 397.13 289.77 409.46 259.08" />
+                                        <path class="logo-1" d="M436.16,306.33a8.54,8.54,0,0,0-7.25-4.35,5,5,0,0,0-3.63,1.33,3.84,3.84,0,0,0-1.09,2.66,3.26,3.26,0,0,0,1.7,2.9c.72.48,1.45.72,4,2.05l6,3a24.58,24.58,0,0,1,7.13,4.71,12.56,12.56,0,0,1,3.74,9.43,16.89,16.89,0,0,1-4.47,11.6c-4,4.35-8.94,5.68-14.26,5.68a17.53,17.53,0,0,1-11-3.26,19.84,19.84,0,0,1-6.52-9.31l9.67-4.59A13.37,13.37,0,0,0,423,333a7.25,7.25,0,0,0,5.19,1.93,7.12,7.12,0,0,0,4.84-1.69,6,6,0,0,0,1.69-4,5.48,5.48,0,0,0-1.57-3.87,15.62,15.62,0,0,0-5.08-3.14l-4.35-2a25.42,25.42,0,0,1-7-4.35,11.09,11.09,0,0,1-3.62-8.58,15.89,15.89,0,0,1,4.23-10.88c2.29-2.42,6.16-4.84,12.44-4.84a16,16,0,0,1,9.43,2.66,17.45,17.45,0,0,1,5.8,6.29Z" />
+                                        <path class="logo-1" d="M580.54,282c-8.94-8.1-17.28-9-21.87-9-17.53,0-29.37,12.94-29.37,30.7,0,17,12.33,30.21,29.49,30.21,9.67,0,17.16-4.95,21.75-9.3v14.62a44,44,0,0,1-22.11,6,40.37,40.37,0,0,1-28.53-11.12c-9.42-8.82-12.93-19.09-12.93-30.45,0-14.86,6.17-25.14,12.93-31.54,8.34-7.86,18-10.51,29.13-10.51,7.37,0,14.5,1.32,21.51,5.8Z" />
+                                        <path class="logo-1" d="M631.64,292.91h11.85v50.88H631.64v-5.32a19.5,19.5,0,0,1-15.22,6.89c-15.71,0-24.66-13.05-24.66-27.07,0-16.55,11.36-26.71,24.78-26.71a18.54,18.54,0,0,1,15.1,7.26Zm-27.79,25.62c0,8.83,5.56,16.2,14.14,16.2,7.49,0,14.38-5.44,14.38-16.08,0-11.11-6.89-16.43-14.38-16.43-8.58,0-14.14,7.25-14.14,16.31" />
+                                        <path class="logo-1" d="M676.2,303.79v40H664.35v-40h-5.07V292.91h5.07V275.27c0-7.86,2.06-12.81,5-15.95a15.91,15.91,0,0,1,12.08-5,19.1,19.1,0,0,1,7.62,1.45v11.73a10.26,10.26,0,0,0-5.68-1.82,6.86,6.86,0,0,0-5.2,1.94c-.6.6-1.93,2.41-1.93,6v19.21H689v10.88Z" />
+                                        <path class="logo-1" d="M744.43,332.19a26.69,26.69,0,0,1-8.58,9.31c-4.11,2.65-9.54,3.86-15,3.86-6.77,0-12.33-1.69-17.16-6.52s-7.5-11.85-7.5-19.46a29.83,29.83,0,0,1,8.1-20.91,23.18,23.18,0,0,1,17-6.89,21.89,21.89,0,0,1,16.31,6.65c6.53,6.77,7.14,16.2,7.14,21.51v1.45H708.3a16.81,16.81,0,0,0,4.35,10.28c2.78,2.77,6.16,3.26,9.06,3.26a12.49,12.49,0,0,0,8.1-2.54,18.38,18.38,0,0,0,4.71-5.56Zm-11.72-20.66a12.21,12.21,0,0,0-3.63-6.89,12.35,12.35,0,0,0-16.31.36,13.4,13.4,0,0,0-3.63,6.53Z" />
+                                        <path class="logo-2" d="M272.29,179.72a38.92,38.92,0,0,0,7.16.66,38.51,38.51,0,0,0,19.35-5.29V162.3c-4,3.81-10.58,8.14-19,8.14a26.14,26.14,0,0,1-12.46-3.05,23.66,23.66,0,0,0,3.14,9.28Z" />
+                                        <path class="logo-2" d="M279.66,117.16c4,0,11.31.74,19.14,7.82V112.3c-6.14-3.92-12.37-5.08-18.82-5.08-9.73,0-18.19,2.33-25.48,9.2C248.58,122,243.19,131,243.19,144a35,35,0,0,0,6.14,20.71c0-.2,0-.39,0-.59A44.6,44.6,0,0,1,251.52,150l2.48-7.4C254.6,127.8,264.79,117.16,279.66,117.16Z" />
+                                        <path class="logo-steam logo-steam--center" d="M385,1.12c-1.42,2-14.83,18.77-15.56,21.08s-.61,6,.23,7.66,6.11,14,7.48,16.67c4.49,8.79-.58,14.87-4.36,19.65-1.33,1.67-.4,3.36.64,2.38,2.74-2.57,14.65-18.65,16.34-22.41s1.4-5.68-.4-9.09a133.4,133.4,0,0,1-6.95-17.4c-2.06-7.68-1.62-9.43,3.88-17.49C387.27.75,386.69-1.3,385,1.12Z" />
+                                        <path class="logo-steam logo-steam--right" d="M409.94,17.27c-1,1.52-10.24,14-10.74,15.76a10.15,10.15,0,0,0,.15,5.72c.58,1.22,4.23,10.45,5.17,12.46,3.1,6.57-.4,11.12-3,14.69-.92,1.25-.28,2.51.44,1.78,1.9-1.93,10.12-13.94,11.28-16.75s1-4.25-.27-6.79a105.54,105.54,0,0,1-4.8-13c-1.42-5.74-1.12-7,2.67-13.07C411.51,17,411.11,15.47,409.94,17.27Z" />
+                                        <path class="logo-steam logo-steam--left" d="M356.13,17.27c-1,1.52-10.24,14-10.75,15.76a10.14,10.14,0,0,0,.16,5.72c.58,1.22,4.22,10.45,5.17,12.46,3.1,6.57-.4,11.12-3,14.69-.91,1.25-.27,2.51.45,1.78,1.89-1.93,10.11-13.94,11.28-16.75s1-4.25-.28-6.79a105.54,105.54,0,0,1-4.8-13c-1.42-5.74-1.11-7,2.68-13.07C357.69,17,357.29,15.47,356.13,17.27Z" />
+                                        <path class="logo-2" d="M329.64,187.9c-3-6.77-4.18-26.1-1-45.54l.2-1.17-16.79,11.87,0,.24c-.85,13.28-1.58,24.74,1.8,36.39,3.21,11.07,10.18,19.48,20.8,25.24A116,116,0,0,0,343,202.16,30.49,30.49,0,0,1,329.64,187.9Z" />
+                                        <path class="logo-1" d="M308.42,145.1c-7.83-7.08-15.12-7.82-19.14-7.82-15.33,0-25.69,11.31-25.69,26.85,0,14.91,10.79,26.43,25.8,26.43,8.46,0,15-4.33,19-8.14v12.79a38.51,38.51,0,0,1-19.35,5.29,35.35,35.35,0,0,1-24.95-9.73c-8.24-7.72-11.31-16.7-11.31-26.64,0-13,5.39-22,11.31-27.59,7.3-6.87,15.75-9.2,25.48-9.2,6.45,0,12.69,1.16,18.82,5.08Z" />
+                                        <path class="logo-1" d="M436.61,103l-.15-.35-.38.06c-.37.06-37.49,5.61-55.33,5.61-12.43,0-29.93-.52-42.72-3-6.32-1.22-10.1-3-10.1-4.67,0-2.41,4-4.13,11.22-4.85,3.85-.38,21.64-1.8,35-2l2.84,0c16.46,0,42.92,2.19,43.18,2.21l.22,0L432,85.09,431,85c-.28,0-28.5-3.56-52.16-3.56-1.75,0-3.45,0-5.06.06-12.59.29-30.59,1.65-37.68,2.63-9.5,1.3-20.59,6.34-20.54,16.24,0,7.4,6.75,12.42,20.55,15.35a219.74,219.74,0,0,0,43.51,4.09,345,345,0,0,0,45.14-3.44c.41,1.32.85,2.88,1.3,4.58l12.58-12.15A44.63,44.63,0,0,0,436.61,103Z" />
+                                        <path class="logo-1" d="M429.26,183.89c-1.78,7.45-9.45,24.25-42.44,26a8.06,8.06,0,0,1-3.13,3.6c-3.58,2.27-8,3-14.87,4.1-3.19.49-7.7,2.29-12.42,4.56a138.87,138.87,0,0,0,24.76,2h1.39c40.74-.3,54.68-23,59.37-36.49,4.81-13.87,4.15-29.75,3.25-40.4l-12.9,11.18A107.85,107.85,0,0,1,429.26,183.89Z" />
+                                        <polygon class="logo-3" points="375.23 174.84 389.68 190.74 395.72 185.51 380.96 169.3 375.23 174.84" />
+                                        <path class="logo-3" d="M398.79,182.84l101.55-88c1.74-1.59,1.68-4.49-.14-6.49L487,73.86c-1.82-2-4.71-2.34-6.45-.76l-96.68,93.37Z" />
+                                        <path class="logo-3" d="M384.61,202.82c.7-6.75,1.9-9.2,1.9-9.2l-4.81-5.28L376.86,183l-4.81-5.28s-2.16,1.38-9.32,1c-3.1-.16-6.2-.33-8.12,2.19s-3.23,5.51-4.43,12.31C348,205.64,330.29,226,330.29,226l1.31,1.52,15.55-14.16a2.61,2.61,0,0,1,.76-3.07,2.69,2.69,0,1,1,3.63,4,2.57,2.57,0,0,1-3.12.45L332.87,228.9l1.51,1.61s22.81-14.65,33.9-16.37c6.91-1.07,10.65-1.76,13.54-3.59C384.41,208.91,384.3,205.8,384.61,202.82Z" />
+                                    </svg>
+
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="header__columns__column">
+                            <p class="header__copy">
+                                「クリエイターズカフェ」は、<br>プロのクリエイターの方たちが<br>Discordという無料通話サービスを使って<br>雑談しながら作業ができる空間を<br>提供しています。
+                            </p>
+                            <p class="button pc-only">
+                                <a href="#about" class="button__anchor">
+                                    <span class="button__anchor__label">くわしく見る</span>
+                                    <span class="button__anchor__left"></span>
+                                    <span class="button__anchor__right"></span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="header__scroll">SCROLL</a>
+        </header>
+        <main class="content">
+            <section id="about" class="section home-about js-waypoint">
+                <div class="home-about__inner">
+                    <div class="container container--narrow">
+                        <h2 class="heading-a js-waypoint" data-en-text="ABOUT">クリエイターズカフェとは</h2>
+                        <div class="image home-about__image js-waypoint">
+                            <img src="/assets/images/img_about_01.svg" alt="">
+                        </div>
+                        <p class="paragraph paragraph--center js-waypoint">
+                            クリエイターズカフェは、「一人で作業していると捗らない……」<br class="pc-only">という問題を解消するための、オンラインコワーキングスペースとして生まれました。
+                        </p>
+                        <p class="paragraph paragraph--note paragraph--center js-waypoint">
+                            ※ 参加するためには、Discordアカウントを取得したのち、デスクトップ、またはスマートフォン用の<br class="pc-only"><a href="https://discordapp.com/download" class="link" target="_blank" rel="noopener">Discordアプリケーション</a>をインストールする必要があります。
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="features" class="section">
+                <div class="container container--wide">
+                    <h2 class="heading-b js-waypoint" data-en-text="FEATURES">サーバーの特徴</h2>
+                    <div class="columns js-waypoint">
+                        <div class="columns__column js-matchHeight">
+                            <div class="card">
+                                <h2 class="card__heading">どんなところ？</h2>
+                                <div class="image card__image">
+                                    <img src="/assets/images/img_features_01.svg" alt="">
+                                </div>
+                                <p class="card__paragraph">
+                                    人の気配を感じることで作業に集中したり、ほっと一息つきたい際には雑談や情報交換を行える場所です。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="columns__column js-matchHeight">
+                            <div class="card">
+                                <h2 class="card__heading">なぜ無料なの？</h2>
+                                <div class="image card__image">
+                                    <img src="/assets/images/img_features_02.svg" alt="">
+                                </div>
+                                <p class="card__paragraph">
+                                    個人事業主の有志によりボランティアで運営されているため、完全無料でご利用いただけます。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="columns__column js-matchHeight">
+                            <div class="card">
+                                <h2 class="card__heading">どんな人がいるの？</h2>
+                                <div class="image card__image">
+                                    <img src="/assets/images/img_features_03.svg" alt="">
+                                </div>
+                                <p class="card__paragraph">
+                                    エンジニアやイラストレーター、漫画家など、様々なクリエイティブな業種に携わっている方が在籍しています。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="terms" class="section home-terms">
+                <div class="container container--narrow">
+                    <h2 class="heading-b heading-b--reverse js-waypoint" data-en-text="TERMS">参加条件</h2>
+                    <ol class="list js-waypoint">
+                        <li class="list__item">
+                            <span class="list__item__inner">クリエイティブな業種に携わっていること</span>
+                        </li>
+                        <li class="list__item">
+                            <span class="list__item__inner">上記の業種で生計を立てていること</span>
+                        </li>
+                        <li class="list__item">
+                            <span class="list__item__inner">精神的、経済的に自立している25歳以上の社会人であること</span>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            <section id="enter" class="section home-enter">
+                <div class="container">
+                    <h2 class="heading-b js-waypoint" data-en-text="ENTER">入室について</h2>
+                    <p class="paragraph paragraph--center js-waypoint">
+                        当サーバーの特徴や参加条件をお読みいただき、<br class="pc-only">条件を満たした方のみご参加ください。
+                    </p>
+                    <p class="button button--center js-waypoint">
+                        <a href="https://discordapp.com/invite/7pDFtCz" target="_blank" rel="noopener" class="button__anchor">参加する</a>
+                    </p>
+                    <p class="paragraph paragraph--note paragraph--center js-waypoint">
+                        ※参加後、サーバー内の「ご案内」チャンネルの内容を必ずお読みください。
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <p class="footer__copyright">Copyright © Creator's Cafe.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/assets/scripts/lib/jquery.min.js"></script>
+    <script src="/assets/scripts/lib/jquery.matchHeight-min.js"></script>
+    <script src="/assets/scripts/lib/jquery.waypoints.min.js"></script>
+    <script src="/assets/scripts/main.min.js"></script>
+
+</body>
+
+</html>
